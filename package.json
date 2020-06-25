@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/mesielepush/Js_Library/issues"
   },
-  "homepage": "https://github.com/mesielepush/Js_Library#readme"
+  "homepage": "https://github.com/mesielepush/Js_Library#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  }
 }
