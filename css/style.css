@@ -177,13 +177,28 @@ header {
   border-right: 1px solid white;
 }
 
-.Status {
-  border-right: 1px solid white;
+.Status_true {
+  border-right: 1px solid #1a0746 !important;
   width: 9rem;
+  color: white;
+  background-color: #118b48;
+  font-weight: 600;
+}
+
+.Status_false {
+  font-weight: 600;
+  border-right: 1px solid #1a0746 !important;
+  width: 9rem;
+  color: white;
+  background-color: #cc5e14;
 }
 
 .Actions {
-  width: 9rem;
+  position: relative;
+  left: 0.5rem;
+  width: 10rem;
+  color: white;
+  background-color: #380606;
 }
 
 .modal-content {
