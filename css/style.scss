@@ -123,3 +123,50 @@ body {
         font-family: "Poppins", sans-serif;
     }
 }
+
+.book{
+  position: relative;
+  margin-top: 0.5rem;;
+  
+  height: 2rem;
+  position: relative;
+  top:10rem;
+  background-color: rgb(0, 0, 0);;
+  span{
+      color:white;
+      font-family: "Poppins", sans-serif;
+      height: 100%;
+      position: relative;
+      top:0.2rem;
+  }
+}
+.Title{
+  
+  width: 24rem!important;
+  height: 100%;
+  border-right: 1px solid white;
+}
+.Author{
+  position:relative;
+  
+  width: 21rem;;
+  border-right: 1px solid white;
+
+}
+.Pages{
+  
+  width: 8rem;;
+  border-right: 1px solid white;
+  ;
+}
+.Status{
+  
+  border-right: 1px solid white;
+  width: 9rem;;
+  
+}
+.Actions{
+  
+  width: 9rem;
+  
+}
