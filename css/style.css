@@ -185,4 +185,47 @@ header {
 .Actions {
   width: 9rem;
 }
+
+.modal-content {
+  z-index: 2000;
+}
+
+.modal-notify .modal-header {
+  border-radius: 3px 3px 0 0;
+}
+
+.modal-notify .modal-content {
+  border-radius: 3px;
+}
+
+.modal-header {
+  background-color: black;
+  -webkit-box-shadow: inset 32px 68px 300px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 32px 68px 300px 0px rgba(0, 0, 0, 0.75);
+  -webkit-transition: -webkit-box-shadow 1s ease-in-out;
+  transition: -webkit-box-shadow 1s ease-in-out;
+  transition: box-shadow 1s ease-in-out;
+  transition: box-shadow 1s ease-in-out, -webkit-box-shadow 1s ease-in-out;
+}
+
+.modal-header .close {
+  color: #e0dd29;
+}
+
+.modal-header h4 {
+  font-family: "Poppins", sans-serif;
+  color: #d0d5df !important;
+}
+
+.modal-body {
+  background-color: #0f021d;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-shadow: inset 32px 68px 300px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 32px 68px 300px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modal-body .label {
+  text-transform: capitalize !important;
+}
 /*# sourceMappingURL=style.css.map */

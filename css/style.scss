@@ -170,3 +170,40 @@ body {
   width: 9rem;
   
 }
+.modal-content{
+  z-index: 2000;
+}
+.modal-notify .modal-header {
+  border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+  border-radius: 3px;
+}
+.modal-header{
+  background-color: black;
+  -webkit-box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  transition: box-shadow 1s ease-in-out;
+  .close{
+    color:rgb(224, 221, 41)
+  }
+  h4{
+    font-family: "Poppins", sans-serif;
+    color:rgb(208, 213, 223)!important;
+  }
+}
+
+
+
+.modal-body{
+  background-color: rgb(15, 2, 29);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 32px 68px 300px 0px rgba(0,0,0,0.75);
+  .label{
+    text-transform: capitalize!important;
+  }
+}
