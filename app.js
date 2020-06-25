@@ -15,20 +15,27 @@ let deleteBookFromLibrary = (index)=>{
     myLibrary.splice(index, 1);
     render();
   }
-
+let = inver = (status)=>{
+    if (status === true){
+        return false
+    }
+    else{
+        return true
+    }
+} 
+let stat = (status) =>{
+    if (status === true){
+        return 'Read'
+    }
+    else{
+        return 'Not Read'
+    }
+}
 let changeStatus = (index, status)=> {
-    let = inver = (status)=>{
-        if (status === true){
-            return false
-        }
-        else{
-            return true
-        }
-    } 
     myLibrary[index].status = inver(status);
-    console.log('URRRRRRRRR')
     render();
 }
+
 function closeModal() {
     document.getElementById('close_modal').click();
 }
@@ -64,16 +71,7 @@ function render(){
     localStorage.setItem('myLibrary', JSON.stringify(myLibrary));
     book_shell.innerHTML = '';
     myLibrary.forEach((book, index) => {
-        let stat = (status) =>{
-            if (status === true){
-                return 'Read'
-            }
-            else{
-                return 'Not Read'
-            }
-        }
-        console.log(book.status)
-        
+       
         template = `
         <div class="container book d-flex text-center">
           <span class='Title' >  ${book.title  } </span>
