@@ -55,7 +55,7 @@ function addBook() {
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   const pages = document.querySelector('#pages').value;
-  const status = document.querySelector('#status').value === true;
+  const status = document.querySelector('#status').value === 'true';
   const book = new Book({
     title,
     author,
